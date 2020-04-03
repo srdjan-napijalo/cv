@@ -1,0 +1,165 @@
+		body{
+			background-image: url("https://i.ibb.co/52gzC6X/background.png");
+			font-family: 'Lato', sans-serif;
+			margin-top: 5%;
+			font-weight: 700;
+				}			
+
+		
+		button{
+			box-shadow: 2px 2px 1px 2px #888888;
+			background-color: white;
+			border-radius: 12px;
+			-webkit-transition-duration: 0.4s;
+  			transition-duration: 0.4s;
+  			border: 1px solid rgba(72, 13, 4, 0.92);
+			}
+		button:hover{
+  		background-color: black;
+  		color: white;
+  		border: 1px solid rgba(72, 13, 4, 0.92);
+			}
+		figcaption button:hover{
+			background-color: lightsteelblue;
+			}
+		figure{
+			float:right;		
+			}
+		figcaption button a{
+			color: black;
+			font-weight: 700;
+			text-decoration: none;
+			font-size: 20px;
+			}
+		figcaption #gitHubBtn a i:hover{
+			color:black;
+			}
+		figcaption #gitHubBtn a i{
+			color: black;	
+			font-size:30px;
+			}
+		figcaption #linkedInBtn a i{
+			color: rgb(0,119,181);	
+			font-size:30px;
+			}
+		img{
+			margin-bottom: 11%;
+			border-radius: 10%;
+			border: 1px solid rgba(72, 13, 4, 0.92);
+  			padding: 5px;
+  			width: 220px;
+  			height: 250px;
+			}
+
+		img:hover {
+			 box-shadow: 0 0 3px 2px rgba(72, 13, 4, 0.92);
+			 color: #424242; 
+			 -webkit-transition: all .4s ease-in;
+			 -moz-transition: all .4s ease-in;
+			 -ms-transition: all .4s ease-in;
+			 -o-transition: all .4s ease-in;
+			 transition: all .4s ease-in;
+			 opacity: 1;
+			 transform: scale(1.2);
+			 -ms-transform: scale(1.2); 
+			 -webkit-transform: scale(1.2); 
+			}
+		
+		.center{
+			min-width: 570px;
+			display: table;
+			background-color: rgba(242, 242, 242, 0.92);
+			margin: auto;
+ 	 		width: 50%;
+ 	 		border-radius: 10px;
+  			  			border: 2px solid black;
+				}
+		.center:hover{
+			border-color:rgba(72, 13, 4, 0.92);
+		}
+
+
+	.oneThird{
+			float: left;
+  			width: 33.33%;
+			}
+		
+			    #buttonRow, #programming{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    }
+    #buttonRow button {
+    	margin: 0 auto;
+    	width: 16.6%;
+    	border-radius: 3px;
+    	flex-basis: 100%;
+    	border-bottom-width: 3px;
+    	
+
+    }
+
+ #buttonRow button:hover{
+    	background-color: white;
+    	color:black;
+    	font-weight: bold;    	
+    }
+    #buttonRow .clickedBtn{
+    	flex-basis: 200%;
+    	transition: flex-basis 200ms ease;
+    	font-weight: bold;    
+    	border-top-width: 3px;
+    	border-radius: 5px;
+    	font-size: 1.5em;
+    	    	border-left-width: 3px;
+    	border-right-width: 3px;
+    	border-bottom-width: 1px;
+    	border-bottom-right-radius: 1px;
+    	border-bottom-left-radius: 1px;
+    
+
+    }
+
+#holder{
+	padding-top: 0px;
+	margin-top: 0px;
+	border: 3px solid rgba(72, 13, 4, 0.92) ;
+	border-top:none;
+	border-radius: 3px;
+}
+
+.section{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+  #experience table, #experience table td, #courses table, #courses table td,
+   #references table, #references table td, #language table, #language table td{
+  	border-width: 2px;
+  	border-style: solid;
+  }
+
+  {
+  	border-width: 2px;
+  	border-style: solid;
+  }
+
+  .center h2, .center h3{
+  	color: rgba(72, 13, 4, 0.92);
+  	text-align: center;
+  }
+
+  .center h2:hover, .center h3:hover{
+  	color: black;
+  }
+  .center h2{
+  	font-size:3rem;
+  }
+  .center h3{
+
+  	font-size: 2rem;
+  }
